@@ -50,3 +50,5 @@ Below is a list of Placeholders commands including a description of what they do
 |[phkick] | Kicks the mentioned user |
 |[phban]  | Bans mentioned user |
 |[phpurge]| Deletes provided amount of messages |
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/GrimDesignsFiveM/TicketBot2.0/tree/master)
