@@ -1,54 +1,37 @@
-[![Build Passing](https://img.shields.io/badge/build-Passing%20-brightgreen.svg?style=flat)](https://github.com/sp0kl/placeholder2.0/) [![Status Online](https://img.shields.io/badge/status-Offline%20-red.svg?style=flat)](https://github.com/sp0kl/placeholder2.0/) [![Bot Code Library](https://img.shields.io/badge/code-discord.js-yellowgreen.svg)](https://discord.js.org/#/) [![Version](https://img.shields.io/badge/version-Beta-blue.svg)](https://github.com/sp0kl/placeholder2.0/)
-# Placeholder2.0
-A moderation bot written in Discord.JS
+# Sloppiers-heroku-discord-bot
 
+A barebones Node.js bot using [discord.js](https://github.com/hydrabolt/discord.js/).
 
-##  Command List & Info
-**Placeholder is a bot created with Discord.js with mostly moderation in mind**
+## Running Locally
 
-Below is a list of Placeholders commands including a description of what they do and a bit about Placeholder
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
->{{REQUIRED}} Since Placeholder has a support ticket funtion it requires a `Support Team` role. If not it will give a error saying the role could not be found
+```sh
+git git@github.com:SloppierKitty7/Sloppiers-heroku-discord-bot.git # or clone your own fork
+cd Sloppiers-heroku-discord-bot
+npm install
+npm start
+```
+Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Table of Conetents
-- [Help Commands](#help)
-- [General Commands](#generalcommands)
-- [Other Commands](#othercommands)
-- [Moderation Commands](#moderationcommands)
+## Deploying to Heroku
 
-<a name="help"></a>
-## Help Command
+```
+heroku create
+git push heroku master
+heroku open
+```
 
-| Command           | Short Description      |
-| ----------------- |:---------------------- |
-| [phhelp]  | Shows my help message and command usage |
-| [phabout] | Tells you all about `Placeholder`  |
+Alternatively, you can deploy your own copy of the app using the web-based flow:
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-<a name="generalcommands"></a>
-## General Commands
+## Documentation
 
-| Command | Short Description |
-| ------- |:----------------- |
-| [phnew] | Opens up a new ticket and tags the `Support Team` |
-| [phclose] | Closes a ticket that has been resolved or been opened by accident |
+For more information about using Node.js on Heroku, see these Dev Center articles:
 
-> `{tip}` The close command `MUST` be used inside the ticket channel
-
-<a name="othercommands"></a>
-## Other Commands
-
-| Command | Short Description |
-| ------- |:----------------- |
-|[phping] | Pings the bot and checks latency and response time |
-
-<a name="moderationcommands"></a>
-## Moderation Commands
-         
-| Command | Short Description |
-| ------- |:----------------- |
-|[phkick] | Kicks the mentioned user |
-|[phban]  | Bans mentioned user |
-|[phpurge]| Deletes provided amount of messages |
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/GrimDesignsFiveM/TicketBot2.0/tree/master)
+- [10 Habits of a Happy Node Hacker](https://blog.heroku.com/archives/2014/3/11/node-habits)
+- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
+- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)

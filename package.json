@@ -1,17 +1,24 @@
 {
-  "name": "NinjaBot",
-  "version": "1.0.0",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
   "main": "index.js",
-  "dependencies": {
-    "discord.js": "^11.4.2",
-    "snekfetch": "^4.0.4"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "GrimDesigns",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "ajax-request": "^1.2.1",
+    "discord.js": "^7.0.1",
+    "express": "^4.13.3",
+    "get-json": "0.0.3",
+    "jquery": "^2.2.4"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
