@@ -1,4 +1,4 @@
-{
+t{
   "name": "ツ Ticket Bot ツ",
   "description": "the Discord bot for super cool support ticket stuff and more! Using discord.js Library",
   "keywords": [
@@ -7,7 +7,7 @@
     "discord"
   ],
   "website": "https://the-watchers.webnode.com/",
-  "repository": "https://github.com/GrimDesignsFiveM/The-Watchers-Ticket-Bot",
+  "repository": "https://github.com/GrimDesignsFiveM/TicketBot2.0",
   "logo": "https://cdn.discordapp.com/attachments/586095704057970708/587949134632321034/imageedit_1_8018298797.png",
   "success_url": "/welcome",
   "env": {
